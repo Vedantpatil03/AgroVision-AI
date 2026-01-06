@@ -6,12 +6,81 @@ import streamlit as st
 from utils.ui_style import apply_global_style
 
 
+
 apply_global_style()
 
+st.markdown("""
+<style>
+/* ===== TOP NAVBAR ===== */
+.navbar {
+    background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
 
+.navbar-title {
+    font-size: 22px;
+    font-weight: 900;
+    color: #22c55e;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
 
+.nav-links a {
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #e5e7eb;
+}
 
+.nav-links a:hover {
+    color: #22c55e;
+}
 
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    
+    .navbar-title {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav-links a {
+        margin: 5px 0;
+        margin-left: 0;
+        font-size: 14px;
+    }
+}
+</style>
+
+<div class="navbar">
+    <div class="navbar-title">AGROVISION AI</div>
+    <div class="nav-links">
+        <a href="/">HOME</a>
+        <a href="/Vegetation_Analysis">VEGETATION ANALYSIS</a>
+        <a href="/Soil_Detection">SOIL DETECTION</a>
+        <a href="/About">ABOUT</a>
+    </div>
+</div>
+""", unsafe_allow_html=True)
 
 st.title("🌿 Vegetation Analysis")
 
