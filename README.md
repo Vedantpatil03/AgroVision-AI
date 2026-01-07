@@ -18,5 +18,6 @@ It provides the dominant soil type along with confidence and coverage informatio
 https://agrovision-ai.streamlit.app/
 
 # User Interface Preview
-<img width="1881" height="861" alt="image" src="https://github.com/user-attachments/assets/f52ce304-7644-4ba7-870e-c9deecf8ff2b" />
+<img width="1851" height="823" alt="image" src="https://github.com/user-attachments/assets/d84b6d2a-7736-438e-a0ed-7b6e490b0587" />
+
 
