@@ -17,7 +17,7 @@ It provides the dominant soil type along with confidence and coverage informatio
 # Live Website:
 https://agrovision-ai.streamlit.app/
 
-# User Interface
+# User Interface:
 <img width="1851" height="823" alt="image" src="https://github.com/user-attachments/assets/d84b6d2a-7736-438e-a0ed-7b6e490b0587" />
 
 
